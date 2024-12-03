@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Search ChatGPT",
+  "version": "1.5",
+  "description": "Search selected text, hyperlinks, or the current page using ChatGPT.",
+  "author": "Jordan Fleschner",
+  "homepage_url": "https://github.com/jfleschner/ContextGPT.git",
+  "permissions": ["contextMenus", "tabs"],
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "Search ChatGPT",
+    "default_icon": {
+      "128": "icon-128.png"
+    }
+  }
+}
